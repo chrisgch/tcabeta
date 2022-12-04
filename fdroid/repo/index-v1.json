@@ -1,0 +1,258 @@
+{
+  "repo": {
+    "timestamp": 1670144183000,
+    "version": 21,
+    "name": "totalcmd-beta",
+    "icon": "default-repo-icon.png",
+    "address": "https://raw.githubusercontent.com/chrisgch/tcabeta/master/fdroid/repo",
+    "description": "beta versions",
+    "mirrors": [
+      "https://raw.githubusercontent.com/chrisgch/tcabeta/master/fdroid/repo/repo"
+    ]
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "authorName": "Christian Ghisler",
+      "suggestedVersionCode": "89",
+      "license": "Unknown",
+      "name": "TotalCmd-LAN (Windows shares)",
+      "added": 1670143636000,
+      "packageName": "com.ghisler.tcplugins.LAN",
+      "lastUpdated": 1670143797000,
+      "localized": {
+        "en-US": {
+          "description": "This is a Plugin for Total Commander for Android!\r\nIt does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nIMPORTANT: If you cannot connect to your server with version 3, then your server probably doesn't support the SMB2 protocol.\r\nSolution: Please open the connection settings by long tap on the connection name. Then disable SMB2. This will use the old SMB1 protocol. Normally the plugin should detect automatically when a server doesn't support SMB2, but some NAS devices seem to react differently.",
+          "phoneScreenshots": [
+            "lan-plugin1.png"
+          ],
+          "summary": "SMB (file sharing) plugin for Total Commander"
+        }
+      },
+      "icon": "com.ghisler.tcplugins.LAN.png"
+    },
+    {
+      "authorName": "Christian Ghisler",
+      "suggestedVersionCode": "49",
+      "license": "Unknown",
+      "name": "TotalCmd-SFTP",
+      "added": 1670143885000,
+      "packageName": "com.ghisler.tcplugins.SFTP",
+      "lastUpdated": 1670144010000,
+      "localized": {
+        "en-US": {
+          "description": "This is a Plugin for Total Commander for Android! It does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nNote: This plugin allows to connect to SFTP servers (file transfer over SSH secure shell). For FTPS (FTP over SSL), please use the separate FTP plugin.\r\n\r\nWhy is this plugin so big? It includes the free sshj library for ssh connections. To support authentication via client certificates, it also has to include libraries from the BouncyCastle project.",
+          "phoneScreenshots": [
+            "sftpshot1.png",
+            "sftpshot2.png"
+          ],
+          "summary": "SFTP-Plugin for Total Commander"
+        }
+      },
+      "icon": "com.ghisler.tcplugins.SFTP.png"
+    }
+  ],
+  "packages": {
+    "com.ghisler.tcplugins.LAN": [
+      {
+        "added": 1670143797000,
+        "apkName": "tcandroidlan331b2.apk",
+        "hash": "af8a0c6fc99514e169b83bddb709cf0886f495a0c01c7e3b4048844129183754",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "packageName": "com.ghisler.tcplugins.LAN",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 713195,
+        "targetSdkVersion": 31,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ]
+        ],
+        "versionCode": 89,
+        "versionName": "3.31b2"
+      },
+      {
+        "added": 1670143642000,
+        "apkName": "tcandroidlan330.apk",
+        "hash": "da0d15a8f0abe8267aceb2b8bed09cf45ecca34f33f26037a6a9a0d9e696aeef",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "packageName": "com.ghisler.tcplugins.LAN",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 727109,
+        "targetSdkVersion": 31,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ]
+        ],
+        "versionCode": 87,
+        "versionName": "3.30"
+      }
+    ],
+    "com.ghisler.tcplugins.SFTP": [
+      {
+        "added": 1670144010000,
+        "apkName": "tcandroidsftp26b4.apk",
+        "hash": "790d229ce3a3c88bc214d10d596a9bb9fa28cbc67d9d14b9dab42787793ab069",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.tcplugins.SFTP",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 2183075,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 49,
+        "versionName": "2.6b4"
+      },
+      {
+        "added": 1670143890000,
+        "apkName": "tcandroidsftp25.apk",
+        "hash": "8eb964f6e80bd3ec8d36d3322e49e921db21ffff408a835841692a8a1935a597",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.tcplugins.SFTP",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 2141280,
+        "targetSdkVersion": 28,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ]
+        ],
+        "versionCode": 45,
+        "versionName": "2.5"
+      }
+    ]
+  }
+}
