@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670145839000,
+    "timestamp": 1670145905000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -61,7 +61,14 @@
       "added": 1670145836000,
       "icon": "com.ghisler.tcplugins.wifitransfer.87.png",
       "packageName": "com.ghisler.tcplugins.wifitransfer",
-      "lastUpdated": 1670145839000
+      "lastUpdated": 1670145839000,
+      "localized": {
+        "en-US": {
+          "phoneScreenshots": [
+            "wifi01.png"
+          ]
+        }
+      }
     }
   ],
   "packages": {
