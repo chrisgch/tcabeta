@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670144190000,
+    "timestamp": 1670145839000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -53,6 +53,15 @@
         }
       },
       "icon": "com.ghisler.tcplugins.SFTP.png"
+    },
+    {
+      "suggestedVersionCode": "87",
+      "license": "Unknown",
+      "name": "TotalCmd-Wifi Transfer",
+      "added": 1670145836000,
+      "icon": "com.ghisler.tcplugins.wifitransfer.87.png",
+      "packageName": "com.ghisler.tcplugins.wifitransfer",
+      "lastUpdated": 1670145839000
     }
   ],
   "packages": {
@@ -252,6 +261,82 @@
         ],
         "versionCode": 45,
         "versionName": "2.5"
+      }
+    ],
+    "com.ghisler.tcplugins.wifitransfer": [
+      {
+        "added": 1670145839000,
+        "apkName": "tcandroidwifi35.apk",
+        "hash": "f238e94af2bd0e9827b5166eb4be8e98b3242bd3efafb875a3668bf4dad48203",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "packageName": "com.ghisler.tcplugins.wifitransfer",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 551530,
+        "targetSdkVersion": 29,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ]
+        ],
+        "versionCode": 87,
+        "versionName": "3.5"
       }
     ]
   }
