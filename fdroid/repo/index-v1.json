@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670232442000,
+    "timestamp": 1670233569000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -30,6 +30,15 @@
         }
       },
       "icon": "com.ghisler.appinstaller.png"
+    },
+    {
+      "suggestedVersionCode": "2090",
+      "license": "Unknown",
+      "name": "Total Commander",
+      "added": 1670233564000,
+      "packageName": "com.ghisler.android.TotalCommander",
+      "lastUpdated": 1670233569000,
+      "icon": "com.ghisler.android.TotalCommander.png"
     },
     {
       "authorName": "Christian Ghisler",
@@ -72,6 +81,106 @@
     }
   ],
   "packages": {
+    "com.ghisler.android.TotalCommander": [
+      {
+        "added": 1670233569000,
+        "apkName": "tcandroid-down340b5d-universal.apk",
+        "hash": "a6c396f83fa41546312b626a0c9b7de66517ad928586c33f3f7507c2944e1d07",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.android.TotalCommander",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 4696817,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            30
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            30
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.ghisler.tcplugins.restricted",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_CONNECT",
+            null
+          ]
+        ],
+        "versionCode": 2090,
+        "versionName": "3.40b5d"
+      }
+    ],
     "com.ghisler.appinstaller": [
       {
         "added": 1670232387000,
