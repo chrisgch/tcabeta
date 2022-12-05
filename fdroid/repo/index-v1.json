@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670153939000,
+    "timestamp": 1670232387000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -15,6 +15,15 @@
     "uninstall": []
   },
   "apps": [
+    {
+      "suggestedVersionCode": "2",
+      "license": "Unknown",
+      "name": "Multi-APK-Installer",
+      "added": 1670232386000,
+      "packageName": "com.ghisler.appinstaller",
+      "lastUpdated": 1670232387000,
+      "icon": "com.ghisler.appinstaller.png"
+    },
     {
       "authorName": "Christian Ghisler",
       "suggestedVersionCode": "89",
@@ -56,6 +65,42 @@
     }
   ],
   "packages": {
+    "com.ghisler.appinstaller": [
+      {
+        "added": 1670232387000,
+        "apkName": "appinstaller110b1.apk",
+        "hash": "e837589fef27ce24a529f47ed11b9496071a0a120c42c80b5e799f26bd6900a3",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "packageName": "com.ghisler.appinstaller",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 251355,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "1.1b1"
+      }
+    ],
     "com.ghisler.tcplugins.LAN": [
       {
         "added": 1670143797000,
