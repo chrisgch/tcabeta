@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670233569000,
+    "timestamp": 1670233641000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -38,6 +38,20 @@
       "added": 1670233564000,
       "packageName": "com.ghisler.android.TotalCommander",
       "lastUpdated": 1670233569000,
+      "localized": {
+        "en-US": {
+          "phoneScreenshots": [
+            "TotalCommander8.png",
+            "TotalCommander7.png",
+            "TotalCommander6.png",
+            "TotalCommander5.png",
+            "TotalCommander4.png",
+            "TotalCommander3.png",
+            "TotalCommander2.png",
+            "TotalCommander1.png"
+          ]
+        }
+      },
       "icon": "com.ghisler.android.TotalCommander.png"
     },
     {
