@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670232387000,
+    "timestamp": 1670232442000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -16,12 +16,19 @@
   },
   "apps": [
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "2",
       "license": "Unknown",
       "name": "Multi-APK-Installer",
       "added": 1670232386000,
       "packageName": "com.ghisler.appinstaller",
       "lastUpdated": 1670232387000,
+      "localized": {
+        "en-US": {
+          "description": "This is a standalone app to install apk, apks, apkm and xapk files.\r\n\r\nUse this if you want to keep updating Total Commander from the Play Store, but still need the app installation feature.",
+          "summary": "App to install apk, apks, apkm and xapk files"
+        }
+      },
       "icon": "com.ghisler.appinstaller.png"
     },
     {
