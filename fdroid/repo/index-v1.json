@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1670864678000,
+    "timestamp": 1672140886000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -78,12 +78,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "49",
+      "suggestedVersionCode": "50",
       "license": "Unknown",
       "name": "TotalCmd-SFTP",
       "added": 1670143885000,
       "packageName": "com.ghisler.tcplugins.SFTP",
-      "lastUpdated": 1670144010000,
+      "lastUpdated": 1672140886000,
       "localized": {
         "en-US": {
           "description": "This is a Plugin for Total Commander for Android! It does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nNote: This plugin allows to connect to SFTP servers (file transfer over SSH secure shell). For FTPS (FTP over SSL), please use the separate FTP plugin.\r\n\r\nWhy is this plugin so big? It includes the free sshj library for ssh connections. To support authentication via client certificates, it also has to include libraries from the BouncyCastle project.",
@@ -477,6 +477,58 @@
       }
     ],
     "com.ghisler.tcplugins.SFTP": [
+      {
+        "added": 1672140886000,
+        "apkName": "tcandroidsftp26b5.apk",
+        "hash": "0354a2e3f14c1cb06b446fba5186a89828709479d58ef598716e0c443dfc6ab9",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.tcplugins.SFTP",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 2183378,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 50,
+        "versionName": "2.6b5"
+      },
       {
         "added": 1670144010000,
         "apkName": "tcandroidsftp26b4.apk",
