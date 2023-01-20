@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1674214870000,
+    "timestamp": 1674214900000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -67,7 +67,7 @@
       "lastUpdated": 1674212537000,
       "localized": {
         "en-US": {
-          "description": "This is a Plugin for Total Commander for Android! It does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin supports connections by FTP and FTPS (secure FTP over SSL). For SFTP (file transfer over SSH secure shell), there is a separate plugin available.",
+          "description": "This is a Plugin for Total Commander for Android! It does not work standalone!\r\n\r\nDo NOT install if you do not use Total Commander!\r\n\r\nThis plugin supports connections by FTP and FTPS (secure FTP over SSL). For SFTP (file transfer over SSH secure shell), there is a separate plugin available.\r\n\r\n(Beta repository)",
           "phoneScreenshots": [
             "ftpshot1.png"
           ],
