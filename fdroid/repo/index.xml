@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fdroid>
+	<repo icon="default-repo-icon.png" name="totalcmd-beta" pubkey="30820505308202eda003020102020454dfed4c300d06092a864886f70d01010b050030323110300e060355040b1307462d44726f6964311e301c060355040313157265706f6d616b65722e662d64726f69642e6f72673020170d3232313230343038343332335a180f32303530303432313038343332335a30323110300e060355040b1307462d44726f6964311e301c060355040313157265706f6d616b65722e662d64726f69642e6f726730820222300d06092a864886f70d01010105000382020f003082020a02820201008044902361c98079359930a489de755e42d3320c826bcd3418939e2b3a4999eaee3e29e3c136718f3a645edf2dcb6d212743738df1e4444b5f9ca5bc594dfcf9205e995aedca2d3bdf021760d000fe54ec59f21813c5b7c2b2694c4cac6668e9d432923001b9cb9697be834fc1ebc09916dff72ad11553fe54c33f09ebd292f23ea1716c5d11587c981f13c9d9216a81d07780153411fafef124c903838dc2638339f52e5f3c41ac0d219cd05ae0be72cecc7449f033b3d5639bc06144b7505823ace25eb3e4b1038466bb1509e816a7d6a26f3353ea070bee0d36514b15da0d46a7d73fd9a67d649a87df392d41e0875d24d2a5c0d444d3e870806451e94700605679c9a2e328ea4fdb95279d07dabafde5536e780db6b316c41decb6ea65977cb5ff7c9fbafd4080cda38e3a490f4c51dac1a4d913521dde6544b73f57ad3d4d11c41728b14dd8b636877f065b743d350ce315f48c9360b0c7dd4a0ffc91a3a608c4694c03476d6704dfe4c3e23d13ca0b80cce9e48a8edf796156b20a2ef051a17df44ec7b6700f2af1efc4c9a1c7e94eee84ba1276966ab38137d2ad0e949b9675573ad8886a79c588100a0c5b8a2dd64e308a6a64ae3efecf982925817f0abb8bad3d35400aa9a3de1efdb968806ba0dc6fe644a1e9e4ecaa4d7cc95decce24bdc54bbe19c96be7b4f8316d68615eba3a7b93b745d775f02cca06e5a11d0203010001a321301f301d0603551d0e041604146c2ed2e25f7312e532dd74a2be22526a2ee540a4300d06092a864886f70d01010b0500038202010041248cca3bb0a581d151641b0af2ab3643136bc0f7fd7bb7a4dc49809f88d5f58b89bcbd81ecce94b54b44b6c92b712e1369a17485a31687067c234fccc98f5f904686764c556df03db3a15b42dda83f50a155f9b8a01e2750947396147c804cab48b7229188148f5ed0ca0e9908641ce12cf17bfb65a6474a5bb1b2495eadbee3c48e44ba22bc73654309702d770fb24bccc33c4742903bc7dbf91bfe5a64b22ad8af2806b56a8480e61356b69233b687e67bc347c80c02716dbafecaf812f144737ef40eae1c61cffa19680c559553ed217c3ebdf62cb4e5bb1382596182e8ff23192443b031a17f8d8aa5f5fe2a1867a5e7e0e108dd3c7c34d62fb5cc8c64b1d7943d52800eb023e265e5757c0fbe42a552ee91dca986e4827edef0470fc104590fbd438ae72e0ba9058c28985314a1353d9e6ecb723cca0e7c2a80fd68601ddb072cc0c114687afbcd2229a2a482c4058f3282b198cdd182a2cea57206adc57d5cb7d8c6dd06cb5befe32639c4e4e430051101cbd9d7be145d95f976b4f1acce7561c1208426068e7b6524f8837265dfb9ff3d75f5913446beaece1fb1b3d3a20a1149a3e2aaf541834485b6be5461345ae5a824705023a41116569a92d21b45d5ee3a2b39116be8ce9b7f83c8ce64c69f531f96dde5f13771fc1e5280d5a4a169a64e5e6845fe90cb0e42fd3bb082d1570c4ebab7e4320c1c76e56fb1f0" timestamp="1674213771" url="https://raw.githubusercontent.com/chrisgch/tcabetanew/master/fdroid/repo" version="21">
+		<description>beta versions</description>
+		<mirror>https://raw.githubusercontent.com/chrisgch/tcabetanew/master/fdroid/repo/repo</mirror>
+	</repo>
+	<application id="com.ghisler.appinstaller">
+		<id>com.ghisler.appinstaller</id>
+		<added>2022-12-05</added>
+		<lastupdated>2022-12-05</lastupdated>
+		<name>Multi-APK-Installer</name>
+		<summary>App to install apk, apks, apkm and xapk files</summary>
+		<icon>com.ghisler.appinstaller.png</icon>
+		<desc>This is a standalone app to install apk, apks, apkm and xapk files.
+
+Use this if you want to keep updating Total Commander from the Play Store, but still need the app installation feature.</desc>
+		<license>Unknown</license>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>Christian Ghisler</author>
+		<marketversion></marketversion>
+		<marketvercode>2</marketvercode>
+		<package>
+			<version>1.1b1</version>
+			<versioncode>2</versioncode>
+			<apkname>appinstaller110b1.apk</apkname>
+			<hash type="sha256">e837589fef27ce24a529f47ed11b9496071a0a120c42c80b5e799f26bd6900a3</hash>
+			<size>251355</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2022-12-05</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+		</package>
+	</application>
+	<application id="com.ghisler.android.TotalCommander">
+		<id>com.ghisler.android.TotalCommander</id>
+		<added>2022-12-05</added>
+		<lastupdated>2023-01-20</lastupdated>
+		<name>Total Commander</name>
+		<summary>File manager for Android</summary>
+		<icon>com.ghisler.android.TotalCommander.png</icon>
+		<desc>Android version of the desktop file manager Total Commander (www.ghisler.com).
+
+Main features:
+- Copy, Move whole subdirs
+- Drag &amp; Drop (long press on file icon, move icon)
+- Inplace rename, create directories
+- Delete (no recycle bin)
+- Zip and unzip, unrar
+- Properties dialog, change permissions
+- Built-in text editor
+- Search function (also for text)
+- Select/unselect groups of files
+- Select by tapping on file icons
+- Select range: Long tap+release on icon
+- List of installed Apps (built-in plugin)
+- FTP and SFTP client (plugin)
+- WebDAV (Web folders) (plugin)
+- LAN access (plugin)
+- Plugins for cloud services: Google Drive, Microsoft Live, Dropbox
+- Root support for the main functions (optional)
+- Send files via Bluetooth (OBEX)
+- Thumbnails for pictures
+- Two panels side by side, or virtual two panel mode
+- Bookmarks
+- Directory history
+- Media player which can stream directly from LAN, WebDAV and cloud plugins
+- Configurable button bar for changing directories, internal commands, launching apps, and sending shell commands
+- Simple help function in English, German, Russian, Ukrainian and Czech
+- Optimizations for visually impaired, like text for icons
+- Supported languages of the main program: English, German, Bulgarian, Croatian, Czech, Danish, Dutch, French, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Korean, Polish, Portuguese, Romanian, Russian, Serbian, Simplified Chinese, Slovak, Slovenian, Spanish, Swedish, Traditional Chinese, Turkish, Ukrainian and Vietnamese.
+- Public translation via http://crowdin.net/project/total-commander
+
+About the permission &quot;SuperUser&quot;:
+This permission is now requested to make Total Commander work better on rooted devices. It tells the SuperUser app that Total Commander suports root functions. It has no effect if your device is not rooted. Root functions allow Total Commander to write to system folders like /system or /data. You will be warned before anything is written if the partition is write protected.
+You can find some more information here:
+http://su.chainfire.eu/#updates-permission</desc>
+		<license>Unknown</license>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>Christian Ghisler</author>
+		<marketversion></marketversion>
+		<marketvercode>2120</marketvercode>
+		<package>
+			<version>3.41b1d</version>
+			<versioncode>2120</versioncode>
+			<apkname>tcandroid-down341b1d-universal.apk</apkname>
+			<hash type="sha256">d9b9655f33d0f9991bb5df3fa9a64e5422a6c81bf134fc53190b3f254c455303</hash>
+			<size>4746448</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2023-01-20</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_SUPERUSER,BLUETOOTH,BLUETOOTH_ADMIN,INTERNET,READ_EXTERNAL_STORAGE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.launcher.permission.INSTALL_SHORTCUT,com.ghisler.tcplugins.restricted</permissions>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH"/>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH_ADMIN"/>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>3.40b6d</version>
+			<versioncode>2100</versioncode>
+			<apkname>tcandroid-down340b6d-universal.apk</apkname>
+			<hash type="sha256">2f0f86ec1451fe546709349912492c50541785494681257eda5080531c1cfb6e</hash>
+			<size>4699540</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2022-12-12</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_SUPERUSER,BLUETOOTH,BLUETOOTH_ADMIN,INTERNET,READ_EXTERNAL_STORAGE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.launcher.permission.INSTALL_SHORTCUT,com.ghisler.tcplugins.restricted</permissions>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH"/>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH_ADMIN"/>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>3.40b5d</version>
+			<versioncode>2090</versioncode>
+			<apkname>tcandroid-down340b5d-universal.apk</apkname>
+			<hash type="sha256">a6c396f83fa41546312b626a0c9b7de66517ad928586c33f3f7507c2944e1d07</hash>
+			<size>4696817</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2022-12-05</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_SUPERUSER,BLUETOOTH,BLUETOOTH_ADMIN,INTERNET,READ_EXTERNAL_STORAGE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.launcher.permission.INSTALL_SHORTCUT,com.ghisler.tcplugins.restricted</permissions>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH"/>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH_ADMIN"/>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.ghisler.tcplugins.FTP">
+		<id>com.ghisler.tcplugins.FTP</id>
+		<added>2023-01-18</added>
+		<lastupdated>2023-01-20</lastupdated>
+		<name>TotalCmd-FTP (File Transfers)</name>
+		<summary>FTP-Plugin for Total Commander</summary>
+		<icon>com.ghisler.tcplugins.FTP.png</icon>
+		<desc>This is a Plugin for Total Commander for Android! It does not work standalone!
+
+Do NOT install if you do not use Total Commander!
+
+This plugin supports connections by FTP and FTPS (secure FTP over SSL). For SFTP (file transfer over SSH secure shell), there is a separate plugin available.</desc>
+		<license>Unknown</license>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>Christian Ghisler</author>
+		<marketversion></marketversion>
+		<marketvercode>62</marketvercode>
+		<package>
+			<version>2.44b1</version>
+			<versioncode>62</versioncode>
+			<apkname>tcandroidftp244b1.apk</apkname>
+			<hash type="sha256">a4aabc72e70edc72fe2e0b4af1c6ddf27e35948ca6bac0ed558ad40cfd758a36</hash>
+			<size>459560</size>
+			<sdkver>9</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2023-01-20</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+	</application>
+	<application id="com.ghisler.tcplugins.LAN">
+		<id>com.ghisler.tcplugins.LAN</id>
+		<added>2022-12-04</added>
+		<lastupdated>2022-12-06</lastupdated>
+		<name>TotalCmd-LAN (Windows shares)</name>
+		<summary>SMB (file sharing) plugin for Total Commander</summary>
+		<icon>com.ghisler.tcplugins.LAN.png</icon>
+		<desc>This is a Plugin for Total Commander for Android!
+It does not work standalone!
+
+Do NOT install if you do not use Total Commander!
+
+IMPORTANT: If you cannot connect to your server with version 3, then your server probably doesn't support the SMB2 protocol.
+Solution: Please open the connection settings by long tap on the connection name. Then disable SMB2. This will use the old SMB1 protocol. Normally the plugin should detect automatically when a server doesn't support SMB2, but some NAS devices seem to react differently.</desc>
+		<license>Unknown</license>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>Christian Ghisler</author>
+		<marketversion></marketversion>
+		<marketvercode>91</marketvercode>
+		<package>
+			<version>3.31b3</version>
+			<versioncode>91</versioncode>
+			<apkname>tcandroidlan331b3.apk</apkname>
+			<hash type="sha256">3ebb655f23ad37ce6dcb46eaeb6883c9c6b61ef37633133395e6284e85313d00</hash>
+			<size>726680</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2022-12-06</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,CHANGE_WIFI_STATE,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+			<uses-permission maxSdkVersion="32" name="android.permission.READ_EXTERNAL_STORAGE"/>
+			<uses-permission maxSdkVersion="32" name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+		</package>
+		<package>
+			<version>3.31b2</version>
+			<versioncode>89</versioncode>
+			<apkname>tcandroidlan331b2.apk</apkname>
+			<hash type="sha256">af8a0c6fc99514e169b83bddb709cf0886f495a0c01c7e3b4048844129183754</hash>
+			<size>713195</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>31</targetSdkVersion>
+			<added>2022-12-04</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,CHANGE_WIFI_STATE,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+		</package>
+		<package>
+			<version>3.30</version>
+			<versioncode>87</versioncode>
+			<apkname>tcandroidlan330.apk</apkname>
+			<hash type="sha256">da0d15a8f0abe8267aceb2b8bed09cf45ecca34f33f26037a6a9a0d9e696aeef</hash>
+			<size>727109</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>31</targetSdkVersion>
+			<added>2022-12-04</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,CHANGE_WIFI_STATE,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+		</package>
+	</application>
+	<application id="com.ghisler.tcplugins.SFTP">
+		<id>com.ghisler.tcplugins.SFTP</id>
+		<added>2022-12-04</added>
+		<lastupdated>2022-12-27</lastupdated>
+		<name>TotalCmd-SFTP</name>
+		<summary>SFTP-Plugin for Total Commander</summary>
+		<icon>com.ghisler.tcplugins.SFTP.png</icon>
+		<desc>This is a Plugin for Total Commander for Android! It does not work standalone!
+
+Do NOT install if you do not use Total Commander!
+
+Note: This plugin allows to connect to SFTP servers (file transfer over SSH secure shell). For FTPS (FTP over SSL), please use the separate FTP plugin.
+
+Why is this plugin so big? It includes the free sshj library for ssh connections. To support authentication via client certificates, it also has to include libraries from the BouncyCastle project.</desc>
+		<license>Unknown</license>
+		<web></web>
+		<source></source>
+		<tracker></tracker>
+		<author>Christian Ghisler</author>
+		<marketversion></marketversion>
+		<marketvercode>50</marketvercode>
+		<package>
+			<version>2.6b5</version>
+			<versioncode>50</versioncode>
+			<apkname>tcandroidsftp26b5.apk</apkname>
+			<hash type="sha256">0354a2e3f14c1cb06b446fba5186a89828709479d58ef598716e0c443dfc6ab9</hash>
+			<size>2183378</size>
+			<sdkver>9</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2022-12-27</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,CHANGE_WIFI_STATE,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>2.6b4</version>
+			<versioncode>49</versioncode>
+			<apkname>tcandroidsftp26b4.apk</apkname>
+			<hash type="sha256">790d229ce3a3c88bc214d10d596a9bb9fa28cbc67d9d14b9dab42787793ab069</hash>
+			<size>2183075</size>
+			<sdkver>9</sdkver>
+			<targetSdkVersion>33</targetSdkVersion>
+			<added>2022-12-04</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,CHANGE_WIFI_STATE,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi-v7a,x86,x86_64</nativecode>
+		</package>
+		<package>
+			<version>2.5</version>
+			<versioncode>45</versioncode>
+			<apkname>tcandroidsftp25.apk</apkname>
+			<hash type="sha256">8eb964f6e80bd3ec8d36d3322e49e921db21ffff408a835841692a8a1935a597</hash>
+			<size>2141280</size>
+			<sdkver>9</sdkver>
+			<targetSdkVersion>28</targetSdkVersion>
+			<added>2022-12-04</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,CHANGE_WIFI_STATE,INTERNET,READ_EXTERNAL_STORAGE,WRITE_EXTERNAL_STORAGE</permissions>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,x86,x86_64</nativecode>
+		</package>
+	</application>
+</fdroid>
