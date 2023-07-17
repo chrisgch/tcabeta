@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1680790308000,
+    "timestamp": 1689591146000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -114,6 +114,15 @@
         }
       },
       "icon": "com.ghisler.tcplugins.SFTP.png"
+    },
+    {
+      "suggestedVersionCode": "88",
+      "license": "Unknown",
+      "name": "TotalCmd-Wifi Transfer",
+      "added": 1689591140000,
+      "packageName": "com.ghisler.tcplugins.wifitransfer",
+      "lastUpdated": 1689591146000,
+      "icon": "com.ghisler.tcplugins.wifitransfer.png"
     }
   ],
   "packages": {
@@ -1197,6 +1206,86 @@
         ],
         "versionCode": 45,
         "versionName": "2.5"
+      }
+    ],
+    "com.ghisler.tcplugins.wifitransfer": [
+      {
+        "added": 1689591146000,
+        "apkName": "tcandroidwifi40b1.apk",
+        "hash": "dce63bbbc4f5e7a8ada92e810e3495f0a6e1179b03468d897dc6572617e9669f",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "packageName": "com.ghisler.tcplugins.wifitransfer",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 755361,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 88,
+        "versionName": "4.0b1"
       }
     ]
   }
