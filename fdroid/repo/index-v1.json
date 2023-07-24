@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1689591522000,
+    "timestamp": 1690216526000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -117,12 +117,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "88",
+      "suggestedVersionCode": "89",
       "license": "Unknown",
       "name": "TotalCmd-Wifi Transfer",
       "added": 1689591140000,
       "packageName": "com.ghisler.tcplugins.wifitransfer",
-      "lastUpdated": 1689591146000,
+      "lastUpdated": 1690216526000,
       "localized": {
         "en-US": {
           "description": "WiFi transfer plugin and standalone app (does not require Total Commander)\r\n\r\nImportant note: This app does NOT contain any ads. However, it contains a link to Total Commander in the upper right corner if you use a Web Browser to access the files, and this plugin as the server. This is treated as an ad by the Play Store.\r\n\r\nThis plugin/tool supports direct connections via HTTP over WiFi/WLAN between two Android devices, or between Android (Server) and any device or computer with a Web browser or WebDAV client.\r\n\r\nIt creates a local Web+WebDAV server. The server URL can either be scanned as a QR-Code, or entered manually.\r\n\r\nAlthough this is mainly a plugin for Total Commander, it can also be used standalone: Simply select some files in any file manager, or text, or an URL, and then use the \"share\" function to send it to the WiFi plugin. This will start a server and show the URL and QR-Code for the server.\r\n\r\nGreat to transfer data locally between two Android devices without going through the cloud! Your data will never leave your own wireless LAN network.\r\n\r\nNote: Both devices need to be in the same WiFi network. If the sender isn't part of a WiFi network, this tool will offer to create its own access point, or start a WiFi direct connection. Other devices can then connect to this network to transfer data. If you scan the QR-Code from a copy of the WiFi plugin, the connection will be established automatically, and closed automatically when disconnecting.\r\n\r\nUnfortunately Android 10 and newer require the \"Location\" permission to create a WiFi direct server. The app will request this permission only when you try to start a WiFi direct server. It is not needed for normal operation when client and server are on the same network.\r\n\r\nStarting with version 3.4, it's now possible to use a fixed path with user name/password login instead of a random path. It uses DIGEST authentication, so your password is never sent in clear text over the connection. This login method is recommended when connecting regularly to the same device, e.g. when mounting the device as a drive in Windows or MacOS.",
@@ -1220,6 +1220,84 @@
       }
     ],
     "com.ghisler.tcplugins.wifitransfer": [
+      {
+        "added": 1690216526000,
+        "apkName": "tcandroidwifi40b2.apk",
+        "hash": "1990a80db94685d7d6f66fbbf98b6b7cfc4c4afad79b79d5eb706a13985785a7",
+        "hashType": "sha256",
+        "minSdkVersion": 9,
+        "packageName": "com.ghisler.tcplugins.wifitransfer",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 755502,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+            null
+          ],
+          [
+            "android.permission.CAMERA",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.CHANGE_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WRITE_SETTINGS",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.ACCESS_FINE_LOCATION",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 89,
+        "versionName": "4.0b2"
+      },
       {
         "added": 1689591146000,
         "apkName": "tcandroidwifi40b1.apk",
