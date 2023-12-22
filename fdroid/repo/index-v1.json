@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1701440493000,
+    "timestamp": 1703253631000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -33,12 +33,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "2210",
+      "suggestedVersionCode": "2230",
       "license": "Unknown",
       "name": "Total Commander",
       "added": 1670233564000,
       "packageName": "com.ghisler.android.TotalCommander",
-      "lastUpdated": 1700155310000,
+      "lastUpdated": 1703253631000,
       "localized": {
         "en-US": {
           "description": "Android version of the desktop file manager Total Commander (www.ghisler.com).\r\n\r\nMain features:\r\n- Copy, Move whole subdirs\r\n- Drag & Drop (long press on file icon, move icon)\r\n- Inplace rename, create directories\r\n- Delete (no recycle bin)\r\n- Zip and unzip, unrar\r\n- Properties dialog, change permissions\r\n- Built-in text editor\r\n- Search function (also for text)\r\n- Select/unselect groups of files\r\n- Select by tapping on file icons\r\n- Select range: Long tap+release on icon\r\n- List of installed Apps (built-in plugin)\r\n- FTP and SFTP client (plugin)\r\n- WebDAV (Web folders) (plugin)\r\n- LAN access (plugin)\r\n- Plugins for cloud services: Google Drive, Microsoft Live, Dropbox\r\n- Root support for the main functions (optional)\r\n- Send files via Bluetooth (OBEX)\r\n- Thumbnails for pictures\r\n- Two panels side by side, or virtual two panel mode\r\n- Bookmarks\r\n- Directory history\r\n- Media player which can stream directly from LAN, WebDAV and cloud plugins\r\n- Configurable button bar for changing directories, internal commands, launching apps, and sending shell commands\r\n- Simple help function in English, German, Russian, Ukrainian and Czech\r\n- Optimizations for visually impaired, like text for icons\r\n- Supported languages of the main program: English, German, Bulgarian, Croatian, Czech, Danish, Dutch, French, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Korean, Polish, Portuguese, Romanian, Russian, Serbian, Simplified Chinese, Slovak, Slovenian, Spanish, Swedish, Traditional Chinese, Turkish, Ukrainian and Vietnamese.\r\n- Public translation via http://crowdin.net/project/total-commander\r\n\r\nAbout the permission \"SuperUser\":\r\nThis permission is now requested to make Total Commander work better on rooted devices. It tells the SuperUser app that Total Commander suports root functions. It has no effect if your device is not rooted. Root functions allow Total Commander to write to system folders like /system or /data. You will be warned before anything is written if the partition is write protected.\r\nYou can find some more information here:\r\nhttp://su.chainfire.eu/#updates-permission",
@@ -138,6 +138,112 @@
   ],
   "packages": {
     "com.ghisler.android.TotalCommander": [
+      {
+        "added": 1703253631000,
+        "apkName": "tcandroid-down350b3d-universal.apk",
+        "hash": "44f2d67f494f7e50d3fb7b2cac5d194ea85edf480226d08a737e40db532652ff",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.android.TotalCommander",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 4954933,
+        "targetSdkVersion": 34,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            30
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.ghisler.tcplugins.restricted",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_CONNECT",
+            null
+          ]
+        ],
+        "versionCode": 2230,
+        "versionName": "3.50b3d"
+      },
       {
         "added": 1700155310000,
         "apkName": "tcandroid-down350b2d-universal.apk",
