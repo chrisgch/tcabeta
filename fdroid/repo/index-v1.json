@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1722494700000,
+    "timestamp": 1722494735000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -136,6 +136,7 @@
       "icon": "com.ghisler.tcplugins.wifitransfer.png"
     },
     {
+      "authorName": "Christian Ghisler",
       "suggestedVersionCode": "22",
       "license": "Unknown",
       "name": "Totalcmd-Windows Live OneDrive",
