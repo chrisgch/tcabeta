@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1721067601000,
+    "timestamp": 1722494481000,
     "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
@@ -134,6 +134,15 @@
         }
       },
       "icon": "com.ghisler.tcplugins.wifitransfer.png"
+    },
+    {
+      "suggestedVersionCode": "22",
+      "license": "Unknown",
+      "name": "Totalcmd-Windows Live OneDrive",
+      "added": 1722494480000,
+      "packageName": "com.ghisler.tcplugins.WindowsLive",
+      "lastUpdated": 1722494481000,
+      "icon": "com.ghisler.tcplugins.WindowsLive.png"
     }
   ],
   "packages": {
@@ -2039,6 +2048,54 @@
         ],
         "versionCode": 45,
         "versionName": "2.5"
+      }
+    ],
+    "com.ghisler.tcplugins.WindowsLive": [
+      {
+        "added": 1722494481000,
+        "apkName": "tcandroidwindowslive270b2.apk",
+        "hash": "7d78c0be84f53885d731e95547f66db26175956b9d677a1a5ac0ccb9f6d008b9",
+        "hashType": "sha256",
+        "minSdkVersion": 14,
+        "packageName": "com.ghisler.tcplugins.WindowsLive",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 440224,
+        "targetSdkVersion": 33,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            32
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.CHANGE_WIFI_STATE",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            32
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ]
+        ],
+        "versionCode": 22,
+        "versionName": "2.70b2"
       }
     ],
     "com.ghisler.tcplugins.wifitransfer": [
