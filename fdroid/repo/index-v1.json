@@ -1,7 +1,7 @@
 {
   "repo": {
-    "timestamp": 1752179161000,
-    "version": 22,
+    "timestamp": 1724165261000,
+    "version": 21,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
     "address": "https://raw.githubusercontent.com/chrisgch/tcabetanew/master/fdroid/repo",
@@ -33,12 +33,12 @@
     },
     {
       "authorName": "Christian Ghisler",
-      "suggestedVersionCode": "2360",
+      "suggestedVersionCode": "2350",
       "license": "Unknown",
       "name": "Total Commander",
       "added": 1670233564000,
       "packageName": "com.ghisler.android.TotalCommander",
-      "lastUpdated": 1752179161000,
+      "lastUpdated": 1721067601000,
       "localized": {
         "en-US": {
           "description": "Android version of the desktop file manager Total Commander (www.ghisler.com).\r\n\r\nMain features:\r\n- Copy, Move whole subdirs\r\n- Drag & Drop (long press on file icon, move icon)\r\n- Inplace rename, create directories\r\n- Delete (no recycle bin)\r\n- Zip and unzip, unrar\r\n- Properties dialog, change permissions\r\n- Built-in text editor\r\n- Search function (also for text)\r\n- Select/unselect groups of files\r\n- Select by tapping on file icons\r\n- Select range: Long tap+release on icon\r\n- List of installed Apps (built-in plugin)\r\n- FTP and SFTP client (plugin)\r\n- WebDAV (Web folders) (plugin)\r\n- LAN access (plugin)\r\n- Plugins for cloud services: Google Drive, Microsoft Live, Dropbox\r\n- Root support for the main functions (optional)\r\n- Send files via Bluetooth (OBEX)\r\n- Thumbnails for pictures\r\n- Two panels side by side, or virtual two panel mode\r\n- Bookmarks\r\n- Directory history\r\n- Media player which can stream directly from LAN, WebDAV and cloud plugins\r\n- Configurable button bar for changing directories, internal commands, launching apps, and sending shell commands\r\n- Simple help function in English, German, Russian, Ukrainian and Czech\r\n- Optimizations for visually impaired, like text for icons\r\n- Supported languages of the main program: English, German, Bulgarian, Croatian, Czech, Danish, Dutch, French, Greek, Hebrew, Hungarian, Indonesian, Italian, Japanese, Korean, Polish, Portuguese, Romanian, Russian, Serbian, Simplified Chinese, Slovak, Slovenian, Spanish, Swedish, Traditional Chinese, Turkish, Ukrainian and Vietnamese.\r\n- Public translation via http://crowdin.net/project/total-commander\r\n\r\nAbout the permission \"SuperUser\":\r\nThis permission is now requested to make Total Commander work better on rooted devices. It tells the SuperUser app that Total Commander suports root functions. It has no effect if your device is not rooted. Root functions allow Total Commander to write to system folders like /system or /data. You will be warned before anything is written if the partition is write protected.\r\nYou can find some more information here:\r\nhttp://su.chainfire.eu/#updates-permission",
