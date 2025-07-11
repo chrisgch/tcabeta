@@ -37,7 +37,7 @@ Use this if you want to keep updating Total Commander from the Play Store, but s
 	<application id="com.ghisler.android.TotalCommander">
 		<id>com.ghisler.android.TotalCommander</id>
 		<added>2022-12-05</added>
-		<lastupdated>2024-07-15</lastupdated>
+		<lastupdated>2025-07-10</lastupdated>
 		<name>Total Commander</name>
 		<summary>File manager for Android</summary>
 		<icon>com.ghisler.android.TotalCommander.png</icon>
@@ -84,6 +84,20 @@ http://su.chainfire.eu/#updates-permission</desc>
 		<author>Christian Ghisler</author>
 		<marketversion></marketversion>
 		<marketvercode>2350</marketvercode>
+		<package>
+			<version>3.60b5d</version>
+			<versioncode>2360</versioncode>
+			<apkname>tcandroid-down360b5d-universal.apk</apkname>
+			<hash type="sha256">d43ace0cef7345068ea02d7be92873c1389b261d22907e3d785733046775c9e6</hash>
+			<size>5697716</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2025-07-10</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_SUPERUSER,BLUETOOTH,BLUETOOTH_ADMIN,INTERNET,READ_EXTERNAL_STORAGE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.launcher.permission.INSTALL_SHORTCUT,com.ghisler.tcplugins.restricted</permissions>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH_ADMIN"/>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,x86,x86_64</nativecode>
+		</package>
 		<package>
 			<version>3.60b4d</version>
 			<versioncode>2350</versioncode>
