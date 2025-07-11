@@ -1,7 +1,7 @@
 {
   "repo": {
-    "timestamp": 1752179161000,
-    "version": 22,
+    "timestamp": 1752240859000,
+    "version": 23,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
     "address": "https://raw.githubusercontent.com/chrisgch/tcabetanew/master/fdroid/repo",
@@ -271,6 +271,120 @@
         ],
         "versionCode": 2350,
         "versionName": "3.60b4d"
+      },
+      {
+        "added": 1721067601000,
+        "apkName": "tcandroid-down360b5d-universal.apk",
+        "hash": "d43ace0cef7345068ea02d7be92873c1389b261d22907e3d785733046775c9e6",
+        "hashType": "sha256",
+        "minSdkVersion": 8,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi",
+          "armeabi-v7a",
+          "mips",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.ghisler.android.TotalCommander",
+        "sig": "802e9030d81682201243d153ab0d7f1c",
+        "signer": "e50eb216a57d5eb0b1e67802e783df7b587bdbdc379e3e296f89b49ed32f00fd",
+        "size": 5701632,
+        "targetSdkVersion": 36,
+        "uses-permission": [
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_ADMIN",
+            30
+          ],
+          [
+            "android.permission.BLUETOOTH",
+            null
+          ],
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.ACCESS_NETWORK_STATE",
+            null
+          ],
+          [
+            "android.permission.WAKE_LOCK",
+            null
+          ],
+          [
+            "android.permission.ACCESS_SUPERUSER",
+            null
+          ],
+          [
+            "com.android.launcher.permission.INSTALL_SHORTCUT",
+            null
+          ],
+          [
+            "com.ghisler.tcplugins.restricted",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": [
+          [
+            "android.permission.QUERY_ALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_INSTALL_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.REQUEST_DELETE_PACKAGES",
+            null
+          ],
+          [
+            "android.permission.USE_FINGERPRINT",
+            null
+          ],
+          [
+            "android.permission.USE_BIOMETRIC",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+            null
+          ],
+          [
+            "android.permission.FOREGROUND_SERVICE_DATA_SYNC",
+            null
+          ],
+          [
+            "android.permission.MANAGE_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.POST_NOTIFICATIONS",
+            null
+          ],
+          [
+            "android.permission.BLUETOOTH_CONNECT",
+            null
+          ],
+          [
+            "moe.shizuku.manager.permission.API_V23",
+            null
+          ]
+        ],
+        "versionCode": 2360,
+        "versionName": "3.60b5d"
       },
       {
         "added": 1717765193000,
