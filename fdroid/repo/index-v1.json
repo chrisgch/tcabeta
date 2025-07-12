@@ -4,11 +4,8 @@
     "version": 23,
     "name": "totalcmd-beta",
     "icon": "default-repo-icon.png",
-    "address": "https://raw.githubusercontent.com/chrisgch/tcabetanew/master/fdroid/repo",
+    "address": "https://raw.githubusercontent.com/chrisgch/tcabeta/master/fdroid/repo",
     "description": "beta versions",
-    "mirrors": [
-      "https://raw.githubusercontent.com/chrisgch/tcabeta/master/fdroid/repo/repo"
-    ]
   },
   "requests": {
     "install": [],
