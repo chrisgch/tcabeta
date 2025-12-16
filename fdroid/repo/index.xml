@@ -84,6 +84,20 @@ http://su.chainfire.eu/#updates-permission</desc>
 		<marketversion></marketversion>
 		<marketvercode>2400</marketvercode>
 		<package>
+			<version>3.61b1d</version>
+			<versioncode>2440</versioncode>
+			<apkname>tcandroid-down361b1d-universal.apk</apkname>
+			<hash type="sha256">cd10d335a202dafec91970c9373078dd7055f76b1d19063457946eec2d9f787a</hash>
+			<size>5705562</size>
+			<sdkver>8</sdkver>
+			<targetSdkVersion>36</targetSdkVersion>
+			<added>2025-12-16</added>
+			<sig>802e9030d81682201243d153ab0d7f1c</sig>
+			<permissions>ACCESS_NETWORK_STATE,ACCESS_SUPERUSER,BLUETOOTH,BLUETOOTH_ADMIN,INTERNET,READ_EXTERNAL_STORAGE,WAKE_LOCK,WRITE_EXTERNAL_STORAGE,com.android.launcher.permission.INSTALL_SHORTCUT,com.ghisler.tcplugins.restricted</permissions>
+			<uses-permission maxSdkVersion="30" name="android.permission.BLUETOOTH_ADMIN"/>
+			<nativecode>arm64-v8a,armeabi,armeabi-v7a,mips,x86,x86_64</nativecode>
+		</package>
+		<package>
 			<version>3.60b7d</version>
 			<versioncode>2400</versioncode>
 			<apkname>tcandroid-down360b7d-universal.apk</apkname>
